@@ -1,0 +1,22 @@
+.Masthead {
+  width: 100%;
+}
+.Masthead-inner {
+  max-width: 1400px;
+  padding: 20px;
+}
+.Masthead-inner:after {
+  content: "";
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+.Masthead .App-logo {
+  float: left;
+  max-width: 300px;
+  width: 33%;
+}
+.Masthead .buttonIcon,
+.Masthead .burger-menu {
+  float: right;
+}

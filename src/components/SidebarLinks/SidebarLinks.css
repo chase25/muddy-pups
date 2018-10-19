@@ -1,0 +1,28 @@
+.sidebarLinks {
+  position: fixed;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.sidebarLinks li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+.sidebarLinks a {
+  background: #fff;
+  border-radius: 50%;
+  color: #5777af;
+  display: block;
+  font-size: 1.3rem;
+  height: 35px;
+  padding-top: 7px;
+  text-align: center;
+  transition: background .3s, color .3s, border-color .3s;
+  width: 35px;
+}
+.sidebarLinks a:hover,
+.sidebarLinks a:focus {
+  background: #BA4EBA;
+  color: #fff;
+}

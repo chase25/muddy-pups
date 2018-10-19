@@ -1,0 +1,16 @@
+.FAQs {
+  align-items: center;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+.FAQs .inner {
+  flex: 100%;
+}
+.FAQs .Accordion-item {
+  margin: 0 auto;
+  max-width: 850px;
+  width: 100%;
+}

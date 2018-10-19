@@ -1,0 +1,47 @@
+.divider-banner {
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.divider-banner.banner-1 {
+  background-image: url('/images/spacer_banner_1_mobile.jpg');
+}
+.divider-banner.banner-2 {
+  background-image: url('/images/spacer_banner_2_mobile.jpg');
+}
+.divider-banner.banner-3 {
+  background-image: url('/images/spacer_banner_3_mobile.jpg');
+}
+.divider-banner.banner-4 {
+  background-image: url('/images/spacer_banner_4_mobile.jpg');
+}
+@media screen and (min-width: 640px) {
+  .divider-banner.banner-1 {
+    background-image: url('/images/spacer_banner_1_tablet.jpg');
+  }
+  .divider-banner.banner-2 {
+    background-image: url('/images/spacer_banner_2_tablet.jpg');
+  }
+  .divider-banner.banner-3 {
+    background-image: url('/images/spacer_banner_3_tablet.jpg');
+  }
+  .divider-banner.banner-4 {
+    background-image: url('/images/spacer_banner_4_tablet.jpg');
+  }
+}
+@media screen and (min-width: 1024px) {
+  .divider-banner.banner-1 {
+    background-image: url('/images/spacer_banner_1_desktop.jpg');
+  }
+  .divider-banner.banner-2 {
+    background-image: url('/images/spacer_banner_2_desktop.jpg');
+  }
+  .divider-banner.banner-3 {
+    background-image: url('/images/spacer_banner_3_desktop.jpg');
+  }
+  .divider-banner.banner-4 {
+    background-image: url('/images/spacer_banner_4_desktop.jpg');
+  }
+}

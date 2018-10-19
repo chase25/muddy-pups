@@ -1,0 +1,18 @@
+.Services {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.Services .inner {
+  flex: 90%;
+  max-width: 850px;
+  text-align: center;
+}
+.Services h2 {
+  color: #BA4EBA;
+  margin-bottom: 20px;
+}
+.Services p {
+  margin-bottom: 15px;
+}

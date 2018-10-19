@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+input, textarea, select, button {
+  font-size: 1em;
+}
+.accessible {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+.App-logo {
+  max-height: 125px;
+}
+a {
+  color: #5777af;
+  outline: 0;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+h1, h2, h3, h4 {
+  color: #BA4EBA;
+  font-weight: 300;
+}
+p, li, label {
+  color: #6a7071;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+a:hover,
+a:focus {
+  color: #BA4EBA;
+  text-decoration: underline;
+}
+p a {
+  border-bottom: 1px solid #BA4EBA;
+  text-decoration: none;
+  transition: border-color .3s;
+}
+p a:hover,
+p a:focus {
+  border-color: #5777af;
+  text-decoration: none;
+}

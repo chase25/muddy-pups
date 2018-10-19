@@ -1,0 +1,18 @@
+.AboutUs {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.AboutUs .inner {
+  flex: 90%;
+  max-width: 850px;
+  text-align: center;
+}
+.AboutUs h2 {
+  color: #BA4EBA;
+  margin-bottom: 20px;
+}
+.AboutUs p {
+  margin-bottom: 15px;
+}

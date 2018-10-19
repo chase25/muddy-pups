@@ -1,0 +1,54 @@
+.Accordion-item {
+  margin-bottom: 10px;
+  padding: 0 20px 20px;
+}
+.Accordion-item .Accordion-heading {
+  background-color: transparent;
+  border: 0;
+  color: #5777af;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0 20px 20px;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+.Accordion-item .Accordion-heading:hover,
+.Accordion-item .Accordion-heading:focus {
+  outline: 0;
+  color: #BA4EBA;
+}
+.Accordion-item .Accordion-heading .fa-plus {
+  display: block;
+  color: #5777af;
+  font-size: 2rem;
+  float: right;
+  height: 32px;
+  transform: translateY(-25%);
+  transform-origin: 25px 16px;
+  transition: transform .3s, color .3s;
+  width: 32px;
+}
+.Accordion-item .Accordion-heading.is-open .fa-plus {
+  color: #BA4EBA;
+  transform: rotate(-315deg);
+}
+.Accordion-item .Accordion-content {
+  border-bottom: 1px solid #BA4EBA;
+  max-height: 0;
+  padding: 0 20px;
+  overflow: hidden;
+  transition: max-height .3s, padding .3s;
+  width: 100%;
+}
+.Accordion-item .Accordion-content.is-open {
+  max-height: 9999px;
+  padding: 0 20px 20px;
+}
+.Accordion-item a {
+  outline: 0;
+}
+.Accordion-item a:hover,
+.Accordion-item a:focus {
+  text-decoration: none;
+}
