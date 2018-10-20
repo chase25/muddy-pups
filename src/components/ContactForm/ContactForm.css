@@ -32,6 +32,7 @@
   display: block;
 }
 .ContactForm .labelCol {
+  min-height: 1px;
   width: 100%;
 }
 .ContactForm .inputCol {
@@ -60,6 +61,7 @@
 .ContactForm input[type="file"] {
   font-size: 1rem;
   margin-top: 5px;
+  margin-bottom: 20px;
 }
 .ContactForm .buttonRow {
   text-align: right;
