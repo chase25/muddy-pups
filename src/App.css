@@ -30,6 +30,7 @@ a {
 h1, h2, h3, h4 {
   color: #BA4EBA;
   font-weight: 300;
+  margin-bottom: 20px;
 }
 p, li, label {
   color: #6a7071;

@@ -1,8 +1,10 @@
 .Masthead {
+  background: #F6FBFE;
   width: 100%;
 }
 .Masthead-inner {
-  max-width: 1400px;
+  max-width: 1024px;
+  margin: 0 auto;
   padding: 20px;
 }
 .Masthead-inner:after {

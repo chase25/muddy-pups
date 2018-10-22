@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './Menu.css';
 
 class Menu extends Component {
@@ -46,10 +47,12 @@ class Menu extends Component {
             <FontAwesomeIcon icon="times" />
             <span className="accessible">Close navigation</span>
           </button>
-          <li><a href="#about-us">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#location">Location</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><AnchorLink href="#about-us">About Us</AnchorLink></li>
+          <li><AnchorLink href="#services">Services</AnchorLink></li>
+          <li><AnchorLink href="#faqs">FAQs</AnchorLink></li>
+          <li><AnchorLink href="#location">Location</AnchorLink></li>
+          <li><a href="mailto:info@muddy-pups.co.uk">Email</a></li>
+          <li><a href="https://www.facebook.com/muddypups" target="_blank" title="Link opens in a new window" rel="noopener noreferrer">Facebook</a></li>
         </ul>
       </div>
     );

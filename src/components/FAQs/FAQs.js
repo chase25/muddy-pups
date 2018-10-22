@@ -6,7 +6,7 @@ import questions from './FAQs.json'
 class FAQs extends Component {
   render() {
 		return (
-      <section className="FAQs">
+      <section className="FAQs" id="faqs">
         <div className="inner">
   				{
   					questions.map((questions, index) => (

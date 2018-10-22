@@ -1,7 +1,8 @@
 .burger-menu .burger-menu-btn {
-  background: #fff;
+  background: #5777af;
   border: 0;
-  color: #BA4EBA;
+  color: #fff;
+  cursor: pointer;
   display: block;
   font-size: 1.25rem;
   height: 40px;
@@ -11,8 +12,7 @@
 }
 .burger-menu .burger-menu-btn:hover,
 .burger-menu .burger-menu-btn:focus {
-  background: #5777af;
-  color: #fff;
+  background: #BA4EBA;
 }
 .burger-menu .burger-menu-wrapper {
   border-radius: 0 50% 50% 0;

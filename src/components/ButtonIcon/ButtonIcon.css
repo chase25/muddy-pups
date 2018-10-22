@@ -1,6 +1,7 @@
 .buttonIcon {
   background: #5777af;
   color: #fff;
+  cursor: pointer;
   display: inline-block;
   font-size: 1.25rem;
   height: 40px;

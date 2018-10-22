@@ -1,18 +1,18 @@
-.AboutUs {
+.PuppyPacks {
   align-items: center;
   display: flex;
   justify-content: center;
   min-height: 100vh;
 }
-.AboutUs .inner {
+.PuppyPacks .inner {
   flex: 90%;
   max-width: 850px;
   padding: 40px;
 }
-.AboutUs h2 {
+.PuppyPacks h2 {
   color: #BA4EBA;
   margin-bottom: 20px;
 }
-.AboutUs p {
+.PuppyPacks p {
   margin-bottom: 15px;
 }

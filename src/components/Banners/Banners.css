@@ -17,6 +17,9 @@
 .divider-banner.banner-4 {
   background-image: url('/images/spacer_banner_4_mobile.jpg');
 }
+.divider-banner.banner-5 {
+  background-image: url('/images/spacer_banner_5_mobile.jpg');
+}
 @media screen and (min-width: 640px) {
   .divider-banner.banner-1 {
     background-image: url('/images/spacer_banner_1_tablet.jpg');
@@ -29,6 +32,9 @@
   }
   .divider-banner.banner-4 {
     background-image: url('/images/spacer_banner_4_tablet.jpg');
+  }
+  .divider-banner.banner-5 {
+    background-image: url('/images/spacer_banner_5_tablet.jpg');
   }
 }
 @media screen and (min-width: 1024px) {
@@ -43,5 +49,8 @@
   }
   .divider-banner.banner-4 {
     background-image: url('/images/spacer_banner_4_desktop.jpg');
+  }
+  .divider-banner.banner-5 {
+    background-image: url('/images/spacer_banner_5_desktop.jpg');
   }
 }

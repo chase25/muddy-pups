@@ -3,11 +3,11 @@
   background: #fff;
   display: flex;
   justify-content: center;
-  padding: 20px;
   min-height: 100vh;
 }
 .FAQs .inner {
   flex: 100%;
+  padding: 40px;
 }
 .FAQs .Accordion-item {
   margin: 0 auto;
