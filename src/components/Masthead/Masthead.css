@@ -1,11 +1,13 @@
 .Masthead {
   background: #F6FBFE;
-  width: 100%;
-}
-.Masthead.is-fixed {
-  position: fixed;
   top: 0;
+  position: fixed;
+  transition: top 1s .5s;
+  width: 100%;
   z-index: 11;
+}
+.Masthead.is-hidden {
+	top: -100%;
 }
 .Masthead-inner {
   max-width: 1024px;
@@ -20,7 +22,7 @@
 }
 .Masthead .App-logo {
   float: left;
-  transition: width .3s;
+  transition: width .5s;
   width: 125px;
 }
 .Masthead .buttonIcon,

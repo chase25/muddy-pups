@@ -5,9 +5,31 @@ import Menu from '../Menu/Menu';
 import ButtonIcon from '../ButtonIcon/ButtonIcon';
 
 class Masthead extends Component {
+  constructor(props){
+  	super(props);
+    this.state={isHidden:false};
+    this.hideMenu = this.hideMenu.bind(this)
+  }
+  hideMenu(){
+    let {isHidden} = this.state
+    window.scrollY > this.prev?
+    !isHidden && this.setState({isHidden:true})
+    :
+    isHidden && this.setState({isHidden:false})
+
+    this.prev = window.scrollY;
+  }
+  componentDidMount(){
+    window.addEventListener('scroll',this.hideMenu);
+  }
+  componentWillUnmount(){
+    window.removeEventListener('scroll',this.hideMenu);
+  }
   render() {
+    let classHide=this.state.isHidden?"is-hidden":""
+
     return (
-      <header className="Masthead">
+      <header className={"Masthead "+classHide}>
         <div className="Masthead-inner">
           <a href="/">
             <img src={logo} className="App-logo" alt="logo" />

@@ -39,11 +39,11 @@ class App extends Component {
         <DocumentMeta {...meta}>
           <Masthead />
           <SidebarLinks />
-          <Banners bannerClass="banner-3" />
+		  <Banners bannerClass="banner-1" />
           <AboutUs />
           <Banners bannerClass="banner-2" />
           <Services />
-          <Banners bannerClass="banner-1" />
+		  <Banners bannerClass="banner-3" />
           <FAQs />
           <Banners bannerClass="banner-4" />
           <Location />
