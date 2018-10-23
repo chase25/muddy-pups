@@ -2,6 +2,11 @@
   background: #F6FBFE;
   width: 100%;
 }
+.Masthead.is-fixed {
+  position: fixed;
+  top: 0;
+  z-index: 11;
+}
 .Masthead-inner {
   max-width: 1024px;
   margin: 0 auto;
@@ -15,10 +20,15 @@
 }
 .Masthead .App-logo {
   float: left;
-  max-width: 300px;
-  width: 33%;
+  transition: width .3s;
+  width: 125px;
 }
 .Masthead .buttonIcon,
 .Masthead .burger-menu {
   float: right;
+}
+@media screen and (min-width: 641px) {
+  .Masthead .App-logo {
+    width: 175px;
+  }
 }
