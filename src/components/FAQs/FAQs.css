@@ -7,10 +7,15 @@
 }
 .FAQs .inner {
   flex: 100%;
-  padding: 40px;
+  padding: 40px 20px;
 }
 .FAQs .Accordion-item {
   margin: 0 auto;
   max-width: 850px;
   width: 100%;
+}
+@media screen and (min-width: 640px) {
+  .FAQs .inner {
+    padding: 40px;
+  }
 }
